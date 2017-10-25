@@ -16,7 +16,7 @@ button {
 }
 
 .container {
-    width: 1200px;
+    width: 960px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -30,11 +30,12 @@ button {
 
 .higherHeader {
     background-color: #000;
+    margin-bottom: 60px;
 }
 
 .mainNav {
     display: inline-block;
-    margin-right: 320px;
+    margin-right: 180px;
 }
 
 .mainNav ul {
@@ -44,7 +45,7 @@ button {
 
 .mainNav li {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-weight: 500;
     padding-top: 25px;
@@ -79,5 +80,192 @@ button {
 
 .auth p:hover {
     color: #7f8c8d;
+    transition: all 0.1s;
+}
+
+.logo {
+    width: 368px;
+    height: 204px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.features {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.features section {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 46px;
+}
+
+.features section:last-child {
+    margin-right: 0;
+}
+
+.featuresPos h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+
+.diamond {
+    width: 28px;
+    height: 28px;
+    background: #fff;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 0 auto;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.featuresPos p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    width: 274px;
+    height: 80px;
+    text-align: center;
+}
+
+.mainContent {
+    background: url("../img/content_background.jpg");
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    width: 940px;
+    min-height: 420px;
+    margin: 0 auto;
+}
+
+.news {
+    display: inline-block;
+    width: 350px;
+    margin-top: -20px;
+    margin-right: 90px;
+}
+
+.news:last-child {
+    margin-right: 0;
+    width: 400px;
+}
+
+.news h2 {
+    padding-top: 50px;    
+    padding-left: 80px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.news p {
+    padding-left: 80px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+
+.news p:nth-child(3) {
+    margin-bottom: 35px;
+}
+
+.news p:nth-child(5) {
+    margin-bottom: 35px;
+}
+
+.allNews {
+    width: 140px;
+    height: 44px;
+    margin-left: 80px;
+    background-color: #000;
+}
+
+.allNews:hover {
+    background-color: #1c2731;
+    transition: all 0.1s;
+}
+
+.allNews p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 34px;
+}
+
+.stick {
+    display: inline-block;
+}
+
+.gallery {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -20px;
+    width: 300px;
+    min-height: 315px;
+}
+
+.gallery h2 {
+    padding-top: 50px;    
+    padding-left: 80px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.galleryImage {
+    margin-left: 80px;
+    margin-bottom: 35px;
+}
+
+.buttonBack {
+    width: 144px;
+    height: 44px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.buttonNext {
+    width: 144px;
+    height: 44px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.btns {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.buttonText {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 34px;
+    margin: 0 auto;
+    margin-left: -20px;
+}
+
+.buttonBack:hover, .buttonNext:hover {
+    background-color: #1c2731;
     transition: all 0.1s;
 }
