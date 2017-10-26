@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 button {
@@ -23,7 +24,6 @@ button {
 
 .clearfix::after {
     content: "";
-    
     display: table;
     clear: both;
 }
@@ -395,3 +395,95 @@ button {
     font-size: 14px;
     padding: 14px;
 }
+
+.footer {
+    height: 193px;
+    background: url("../img/footer.jpg");
+    margin-top: 60px;
+}
+
+.footer section {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 330px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.info span {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.info span:hover {
+    color: #95a5a6;
+    text-decoration: underline;
+    transition: all 0.1s;
+}
+
+.socials {
+    width: 160px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 220px;
+}
+
+.socials p {
+    margin-bottom: 20px;
+}
+
+.socBtn {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.socBtn:last-child {
+    margin-right: 0;
+}
+
+.socBtn img {
+    border: 1px solid transparent;
+}
+
+.socBtn img:hover {
+    border: 1px solid #7f8c8d;
+    transition: all 0.1s;
+}
+
+.developedBy {
+    width: 140px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.darkBlock {
+    background-color: #000;
+}
+
+.darkBlock:hover {
+    background-color: #fff;
+    transition: all 0.1s;
+}
+
+.darkBlock p {
+    padding: 12px;
+}
+
+.darkBlock p:hover {
+    color: #000;
+    transition: all 0.1s;
+}
+
